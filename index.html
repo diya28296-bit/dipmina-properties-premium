@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dipmina Properties | Real Estate</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#f7f5f0;
+  color:#171717;
+  line-height:1.6;
+}
+
+header{
+  background:#111;
+  color:white;
+  padding:18px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  z-index:100;
+}
+
+.logo{
+  font-size:24px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:22px;
+  font-size:14px;
+}
+
+.hero{
+  min-height:78vh;
+  display:flex;
+  align-items:center;
+  padding:60px 7%;
+  background:linear-gradient(135deg,#111,#343434);
+  color:white;
+}
+
+.hero-content{
+  max-width:800px;
+}
+
+.hero small{
+  color:#d6b36a;
+  font-size:15px;
+  letter-spacing:2px;
+}
+
+.hero h1{
+  font-size:52px;
+  line-height:1.1;
+  margin:18px 0;
+}
+
+.hero p{
+  font-size:18px;
+  color:#ddd;
+  max-width:650px;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:28px;
+  padding:13px 25px;
+  background:#d6b36a;
+  color:#111;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:5px;
+}
+
+section{
+  padding:70px 7%;
+}
+
+.section-title{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.section-title h2{
+  font-size:34px;
+  margin-bottom:8px;
+}
+
+.section-title p{
+  color:#666;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:22px;
+}
+
+.card{
+  background:white;
+  padding:28px;
+  border-radius:10px;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+  margin-bottom:10px;
+  font-size:21px;
+}
+
+.card p{
+  color:#666;
+}
+
+.properties{
+  background:#eeeae2;
+}
+
+.property{
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.property-image{
+  height:190px;
+  background:linear-gradient(135deg,#333,#777);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-size:18px;
+}
+
+.property-content{
+  padding:22px;
+}
+
+.property-content h3{
+  margin-bottom:8px;
+}
+
+.contact{
+  background:#111;
+  color:white;
+  text-align:center;
+}
+
+.contact p{
+  color:#ccc;
+  margin:10px 0;
+}
+
+footer{
+  background:#080808;
+  color:#aaa;
+  text-align:center;
+  padding:20px;
+  font-size:13px;
+}
+
+@media(max-width:700px){
+  header{
+    padding:16px 5%;
+  }
+
+  nav{
+    display:none;
+  }
+
+  .hero{
+    padding:55px 6%;
+  }
+
+  .hero h1{
+    font-size:38px;
+  }
+
+  .hero p{
+    font-size:16px;
+  }
+
+  section{
+    padding:55px 6%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">DIPMINA PROPERTIES</div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#properties">Properties</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+
+    <small>REAL ESTATE • TRUST • FUTURE</small>
+
+    <h1>
+      Find the Right Property<br>
+      for Your Future.
+    </h1>
+
+    <p>
+      Dipmina Properties connects people with property opportunities
+      and helps make real-estate decisions simpler and more transparent.
+    </p>
+
+    <a class="btn" href="#properties">
+      Explore Properties
+    </a>
+
+  </div>
+</section>
+
+<section id="about">
+
+  <div class="section-title">
+    <h2>About Dipmina Properties</h2>
+    <p>Building trust through real estate.</p>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>🏠 Property Search</h3>
+      <p>
+        Explore residential, land and other property opportunities.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🤝 Trusted Guidance</h3>
+      <p>
+        We aim to make property discussions clear and easy to understand.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>📍 Local Opportunities</h3>
+      <p>
+        Discover property opportunities with a focus on Maharashtra.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="properties" class="properties">
+
+  <div class="section-title">
+    <h2>Featured Properties</h2>
+    <p>Property listings will appear here.</p>
+  </div>
+
+  <div class="cards">
+
+    <div class="property">
+      <div class="property-image">
+        PROPERTY 01
+      </div>
+
+      <div class="property-content">
+        <h3>Residential Property</h3>
+        <p>Location: Maharashtra</p>
+        <p>Contact us for details.</p>
+      </div>
+    </div>
+
+    <div class="property">
+      <div class="property-image">
+        PROPERTY 02
+      </div>
+
+      <div class="property-content">
+        <h3>Land / Plot</h3>
+        <p>Location: Maharashtra</p>
+        <p>Contact us for details.</p>
+      </div>
+    </div>
+
+    <div class="property">
+      <div class="property-image">
+        PROPERTY 03
+      </div>
+
+      <div class="property-content">
+        <h3>Property Opportunity</h3>
+        <p>Location: Maharashtra</p>
+        <p>Contact us for details.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+  <div class="section-title">
+    <h2>Contact Dipmina Properties</h2>
+    <p>Looking for a property or want to list one?</p>
+  </div>
+
+  <p>📞 Contact us for property enquiries</p>
+  <p>📧 Email: dipminaproperties@gmail.com</p>
+
+  <a class="btn" href="mailto:dipminaproperties@gmail.com">
+    Send Enquiry
+  </a>
+
+</section>
+
+<footer>
+  © 2026 Dipmina Properties. All Rights Reserved.
+</footer>
+
+</body>
+    </html>
